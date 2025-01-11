@@ -563,14 +563,6 @@ img#Education {
     width: 100%;
     object-fit: contain;
   }
-  .column img:active {
-    z-index: 80;
-    display: inline-block;
-    position: relative;
-    scale: 2;
-    box-sizing: content-box;
-    object-fit: cover;
-  }
 
 .Form {
     display: inline-block;
@@ -720,212 +712,7 @@ img#process{
     height: 100%;
     width: 100%;
 }
-@media screen and (max-width: 768px) {
-    body {
-        width: 100%;
-    }
-    .Loader {
-        height: 100%; /* Adjust height to fit smaller screens */
-        width: 100%; /* Full width */
-        align-items: center; /* Vertical centering */
-        justify-content: center; /* Horizontal centering */
-    }
-    .Loader .LoadingInf .Loading{
-        height: 60%; /* Adjust size for smaller screens */
-        width: 60%;
-    }
-    .Loader h2.Loading{
-        top: 70%; /* Adjust position for readability */
-        font-size: 3.5rem; /* Responsive font size */
-    }
-    .Header {
-        width: 100%;
-        height: 40%;
-    }
-    .Header img#Zendrix{
-        width: 50%;
-        height: 10.5vh;
-        left: 25%;
-        top: 14vh;
-    }
-    img#Spin{
-        display: none;
-    }
-    .HeaderLine {
-        width: 87%;
-        height: 1px;
-        left: 6%;
-        bottom: 1vh;
-    }
-    header nav ul { 
-        justify-content: center;
-        align-items: center;
-        left: 6%;
-        bottom: 6.5vh;
-    }
-    header nav ul li {
-        padding-left: 1rem;
-    }
-    aside .Sidebar nav ul {
-        display: inline-flex;
-        position: sticky;
-        left: 22%;
-        margin-top: 10vh;
-    }
-    aside .Sidebar nav ul li {
-        margin: 0 2vh;
-        padding-bottom: 2vh;
-        
-    }
-
-    aside .Sidebar nav li a img{
-        width: 90%;
-        height: 78%;
-    }
-    .SideLine {
-        display: none;
-    }
-    section {
-        left: 10%;
-        top: 40%;
-        width: 80%;
-        height: 80%; 
-    }
-    .Highlights img {
-        display: absolute;
-        left: 60%;
-        top: 30%;
-    }
-    .Louis {
-        display: none;
-    }
-    footer {
-        top: 80vh;
-        width: 100%;
-    }
-    .FooterLine {
-        width: 95%;
-    }
-    .FooterLeft {
-        margin: 10px;
-        padding: 2rem;
-    }
-    .FooterLeft h2{
-        font-size: 55px;
-        width: 75vw;
-        margin-left: 5vw;
-        padding-bottom: 2rem;
-    }
-    .FooterLeft p{
-        font-size: 15px;
-        margin-left: 5.8vw;
-        width: 75vw;
-        padding-bottom: 1.5rem;
-    }
-    .FooterLinks nav ul li a{
-        font-size: 15px;
-        margin-left: 4.5vw;
-        color: black;
-        font-weight: bold;
-    }
-    .FooterRight {
-        position: relative;
-        height: 30vh;    
-        width: 80%;
-        bottom: 3vh;
-        left: 7vw;
-    }
-    .FooterRight h3{
-        font-size: 25px;
-    }
-    .FooterLinks nav ul li {
-        right: 1vw;
-    }
-    .FooterRight ul li {
-        margin-left: 15vw;
-        width: 50vw;
-    }
-    .FooterRight ul li p{
-        font-size: 20px;
-        padding-bottom: 10px;
-        width: 50vw;
-        text-align: center;
-    }
-    .Footer img#FooterZendrix{
-        height: 4vh;
-        scale: 4.0;
-        left: 20%;
-        bottom: 5vh;
-        margin-top: 10vh;
-        margin-bottom: 2vh;
-    }
-    .FooterFooterLeft {
-        margin-top: 10px;
-        margin-right: 45%;
-        margin-left: 2%;
-    }
-    .FooterFooterRight {
-        display: inline-block;
-        position: absolute;
-        margin-top: 10px;
-    }
-    .Hi h2{
-        display: inline-block;
-        position: absolute;
-        font-size: 4rem;
-        transition-duration: 4s;
-    }
-    .Name {
-        display: inline-block;
-        position: absolute;
-        top: 5rem;
-        left: 10vw;
-        font-style: italic;
-        font-size: 2rem;
-    }
-    .Highlights {
-        display: inline-block;
-        z-index: 11;
-        position: absolute;
-        top: 17vh;
-        font-size: 30px;
-    }
-    .container {
-        display: inline-block;
-        overflow-y: scroll;
-        width: 72vw;
-        height: 50vh;
-        margin: 10px;
-    }
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-      }
-      
-      .column {
-        flex: 50%;
-        max-width: 50%;
-        padding: 0 4px;
-      }
-      
-      .column img, iframe, blockquote{
-        margin-top: 8px;
-        vertical-align: middle;
-        width: 100%;
-        object-fit: contain;
-      }
-      .column img:active {
-        z-index: 80;
-        display: inline-block;
-        position: relative;
-        scale: 2;
-        box-sizing: content-box;
-        object-fit: contain;
-      }
-}
-
-@media screen and (max-width: 480px) {
+@media (max-width: 768px) {
     body {
         width: 100%;
     }
@@ -1096,4 +883,8 @@ img#process{
         top: 17vh;
         font-size: 30px;
     }
+}
+
+@media (max-width: 480px) {
+
 }
